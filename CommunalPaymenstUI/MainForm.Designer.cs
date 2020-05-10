@@ -34,6 +34,7 @@
             this.HousesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.RoomsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.RatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.CalculateButton = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,10 +44,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.MainLabel.AutoSize = true;
             this.MainLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.MainLabel.Location = new System.Drawing.Point(15, 69);
+            this.MainLabel.Location = new System.Drawing.Point(30, 69);
+            this.MainLabel.MinimumSize = new System.Drawing.Size(200, 0);
             this.MainLabel.Name = "MainLabel";
             this.MainLabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.MainLabel.Size = new System.Drawing.Size(142, 22);
+            this.MainLabel.Size = new System.Drawing.Size(200, 22);
             this.MainLabel.TabIndex = 0;
             this.MainLabel.Text = "Текущий тариф";
             // 
@@ -56,7 +58,7 @@
             this.CatalogToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(739, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(694, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -88,14 +90,25 @@
             this.RatesToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.RatesToolStripMenuItem.Text = "Тарифы";
             // 
+            // CalculateButton
+            // 
+            this.CalculateButton.Location = new System.Drawing.Point(264, 214);
+            this.CalculateButton.Name = "CalculateButton";
+            this.CalculateButton.Size = new System.Drawing.Size(156, 44);
+            this.CalculateButton.TabIndex = 2;
+            this.CalculateButton.Text = "Рассчитать";
+            this.CalculateButton.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(739, 450);
+            this.ClientSize = new System.Drawing.Size(694, 311);
+            this.Controls.Add(this.CalculateButton);
             this.Controls.Add(this.MainLabel);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MinimumSize = new System.Drawing.Size(710, 350);
             this.Name = "MainForm";
             this.Text = "Simple Communal Payments";
             this.menuStrip1.ResumeLayout(false);
@@ -113,6 +126,7 @@
         private System.Windows.Forms.ToolStripMenuItem HousesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem RoomsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem RatesToolStripMenuItem;
+        private System.Windows.Forms.Button CalculateButton;
     }
 }
 
