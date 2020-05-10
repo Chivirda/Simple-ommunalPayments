@@ -9,7 +9,7 @@ namespace CPLogic.Model
         public double Area { get; set; }
         public DateTime DateOfChanging { get; set; }
         public int HouseId { get; set; }
-        public virtual House House { get; set; }
+        public virtual House House { get; }
 
         public override string ToString()
         {

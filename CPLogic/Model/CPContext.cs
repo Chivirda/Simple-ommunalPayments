@@ -2,7 +2,7 @@
 
 namespace CPLogic.Model
 {
-    class CPContext : DbContext
+    public class CPContext : DbContext
     {
         public CPContext() : base("CPConnection") { }
 
