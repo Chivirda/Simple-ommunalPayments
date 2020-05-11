@@ -22,5 +22,10 @@ namespace CommunalPaymenstUI
                 MainLabel.Text = $"Текукщий тариф: {Rates.Last()} р/м2";
             }
         }
+
+        private void HousesToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

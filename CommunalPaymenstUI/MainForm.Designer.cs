@@ -75,19 +75,20 @@
             // HousesToolStripMenuItem
             // 
             this.HousesToolStripMenuItem.Name = "HousesToolStripMenuItem";
-            this.HousesToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.HousesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.HousesToolStripMenuItem.Text = "Дома";
+            this.HousesToolStripMenuItem.Click += new System.EventHandler(this.HousesToolStripMenuItem_Click);
             // 
             // RoomsToolStripMenuItem
             // 
             this.RoomsToolStripMenuItem.Name = "RoomsToolStripMenuItem";
-            this.RoomsToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.RoomsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.RoomsToolStripMenuItem.Text = "Помещения";
             // 
             // RatesToolStripMenuItem
             // 
             this.RatesToolStripMenuItem.Name = "RatesToolStripMenuItem";
-            this.RatesToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.RatesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.RatesToolStripMenuItem.Text = "Тарифы";
             // 
             // CalculateButton
