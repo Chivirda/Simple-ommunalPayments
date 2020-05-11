@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Windows.Forms;
 using CPLogic.Model;
 
@@ -25,7 +26,7 @@ namespace CommunalPaymenstUI
 
         private void HousesToolStripMenuItem_Click(object sender, System.EventArgs e)
         {
-
+            new HousesCatalogueForm().Show();
         }
     }
 }

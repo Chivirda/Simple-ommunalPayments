@@ -56,11 +56,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CatalogForm.cs">
+    <Compile Include="HousesCatalagueForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CatalogForm.Designer.cs">
-      <DependentUpon>CatalogForm.cs</DependentUpon>
+    <Compile Include="HousesCatalagueForm.Designer.cs">
+      <DependentUpon>HousesCatalagueForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -70,8 +70,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CatalogForm.resx">
-      <DependentUpon>CatalogForm.cs</DependentUpon>
+    <EmbeddedResource Include="HousesCatalagueForm.resx">
+      <DependentUpon>HousesCatalagueForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -86,6 +86,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\CPLogic.Model.CPContext.datasource" />
+    <None Include="Properties\DataSources\CPLogic.Model.House.datasource" />
+    <None Include="Properties\DataSources\CPLogic.Model.Rate.datasource" />
+    <None Include="Properties\DataSources\CPLogic.Model.Result.datasource" />
+    <None Include="Properties\DataSources\CPLogic.Model.Room.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
