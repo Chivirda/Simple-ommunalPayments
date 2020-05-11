@@ -105,6 +105,7 @@
             this.AddHouseButton.TabIndex = 5;
             this.AddHouseButton.Text = "Добавить";
             this.AddHouseButton.UseVisualStyleBackColor = true;
+            this.AddHouseButton.Click += new System.EventHandler(this.AddHouseButton_Click);
             // 
             // CancelButton
             // 
@@ -115,6 +116,7 @@
             this.CancelButton.TabIndex = 6;
             this.CancelButton.Text = "Отмена";
             this.CancelButton.UseVisualStyleBackColor = true;
+            this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
             // 
             // AddHouse
             // 
